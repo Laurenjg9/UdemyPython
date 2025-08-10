@@ -11,6 +11,13 @@ site_dir: site
 # Configuración del tema Material
 theme:
   name: material
+  palette:
+    primary: indigo
+    accent: pink
+  features:
+    - content.code.copy
+  code:
+    highlight_theme: dracula
   #logo: assets/img/logo_ims_blanco.png   # (opcional) ruta a tu logo
   ##favicon: assets/diagrams/favicon.png
 
@@ -28,6 +35,10 @@ markdown_extensions:
   
 nav:
 - Principiante:
+  - Funciones:
+    - Funcion print(): Principiante/funciones/print_function.md
+    - Funcion input(): Principiante/funciones/input_function.md
+    - Funcion len(): Principiante/funciones/len_function.md
   - Variables: Principiante/Variables.md
   - Tipos de datos: Principiante/Tipos_Datos.md
   - Estructuras de control: Principiante/Estructuras_de_control.md
