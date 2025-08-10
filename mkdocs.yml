@@ -1,0 +1,44 @@
+site_name: Inicios en python
+site_description: Centro de recopilacion de recursos para aprender Python
+site_author: Lauren Galvis
+
+# Carpeta donde están tus .md
+docs_dir: docs
+
+# Carpeta de salida (sitio estático)
+site_dir: site
+
+# Configuración del tema Material
+theme:
+  name: material
+  #logo: assets/img/logo_ims_blanco.png   # (opcional) ruta a tu logo
+  ##favicon: assets/diagrams/favicon.png
+
+# Plugins activos
+plugins:
+  - search                # búsqueda interna
+  - mermaid2              # para diagramas Mermaid
+
+# Extensiones de Markdown
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: docs
+
+  # Navegación principal (ajusta según tus archivos)
+  
+nav:
+- Principiante:
+  - Variables: Principiante/Variables.md
+  - Tipos de datos: Principiante/Tipos_Datos.md
+  - Estructuras de control: Principiante/Estructuras_de_control.md
+  - Operadores: Principiante/Operadores_logicos.md
+  - Listas: Principiante/Listas.md
+#- Intermedio:
+#  - Funciones: 
+#  - Módulos: 
+#  - Manejo de errores:
+#- Avanzado:
+#  - Programación orientada a objetos:
+#  - Decoradores:
+#  - Generadores:
+ 
